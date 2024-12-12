@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TcwVGm3PGJyhK2ZwM5PyF0wJuO7/Hj9DfaLO1wv3fMbfx1+75aHmfr50J3wI+JaMCdJss3nhM14r/luv86KM1g==",
+  "dgSpecHash": "I/bz8frZUa+MWdUy1O2PJEfuZSxNCw5qvtvUPcr+KoJhaJ0JM8xd7t13nDeXsIsUtUaXAAqZl/Et83fogpGBMg==",
   "success": true,
-  "projectFilePath": "/home/ilia/Desktop/dotnetTgBot/dotnetTgBot.csproj",
+  "projectFilePath": "/home/ilia/Tg-images-bot/dotnetTgBot.csproj",
   "expectedPackageFiles": [
     "/home/ilia/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/ilia/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

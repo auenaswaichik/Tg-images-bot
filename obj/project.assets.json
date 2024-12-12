@@ -3350,11 +3350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ilia/Desktop/dotnetTgBot/dotnetTgBot.csproj",
+      "projectUniqueName": "/home/ilia/Tg-images-bot/dotnetTgBot.csproj",
       "projectName": "dotnetTgBot",
-      "projectPath": "/home/ilia/Desktop/dotnetTgBot/dotnetTgBot.csproj",
+      "projectPath": "/home/ilia/Tg-images-bot/dotnetTgBot.csproj",
       "packagesPath": "/home/ilia/.nuget/packages/",
-      "outputPath": "/home/ilia/Desktop/dotnetTgBot/obj/",
+      "outputPath": "/home/ilia/Tg-images-bot/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ilia/.nuget/NuGet/NuGet.Config"
