@@ -70,7 +70,7 @@ public static class UpdateHandler {
             if (im.IsNullOrEmpty())
                 db.Images.Add(imageInfo);
 
-            db.Images.Remove(db.Images.FirstOrDefault(x => x.FromWho == "Максим"));
+            //db.Images.Remove(db.Images.FirstOrDefault(x => x.FromWho == "Максим"));
 
             db.SaveChanges();
 
