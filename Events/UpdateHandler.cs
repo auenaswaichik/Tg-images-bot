@@ -31,9 +31,16 @@ public static class UpdateHandler {
                         return;
 
                     }
+                    if (message.Text == "/send_image") {
+                        
+                        sendImage(chat, botClient);
+                        
+                        return; 
 
-                    sendImage(chat, botClient);
-                    
+                    }
+
+                    sendErrorMessage(chat, botClient);
+
                     return;
 
                 }
@@ -84,6 +91,18 @@ public static class UpdateHandler {
 
         }
 
+
+    }
+
+    private static void sendErrorMessage (Chat chat, ITelegramBotClient bot) {
+
+        bot.SendMessage (
+
+            chat.Id,
+            "Your message is incorrect.\n" 
+            + "Print '/send_image' or send your image."
+
+        );
 
     }
 
