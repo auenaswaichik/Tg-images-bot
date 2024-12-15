@@ -48,6 +48,11 @@ jobs:
 
   build:
 
+    run: dotnet add package Microsoft.Data.Sqlite.Core --version 9.0.0
+    run: dotnet add package Microsoft.EntityFrameworkCore --version 9.0.0
+    run: dotnet add package Microsoft.EntityFrameworkCore.Sqlite --version 9.0.0
+    run: dotnet add package Telegram.Bot --version 22.2.0 
+
     strategy:
       matrix:
         configuration: [Debug, Release]
