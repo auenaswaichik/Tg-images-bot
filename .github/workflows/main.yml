@@ -1,0 +1,28 @@
+name: coolWorkflow
+
+on: 
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore
+        run: dotnet restore ./dotnetTgBot.sln
+
+      - name: Build
+        run: dotnet build ./dotnetTgBot.sln --configuration Release --no-restore
+
+      - name: Publish
+        run: dotnet publish ./dotnetTgBot.sln --configuration Release --no-build
